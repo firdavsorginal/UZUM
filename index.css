@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+   
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.048);
+    border-radius: 5px;
+    display: flex;
+
+    align-items: center;
+    border: 2px solid wheat;
+}
+.search button{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+   background:rgb(188, 187, 185);
+   border: none;
+}
+.search input{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+border: none;
+
+}
+.logo{
+    width: 200px;
+  
+}
+.con{
+padding: 20px 20px;
+    margin: auto;
+}
+.BUTTON1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+height: 40px;
+padding: 10px;
+}
+.BUTTON2{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+height: 40px;
+padding: 10px;
+}
+b{
+position: relative;
+top: 5px;
+left: 5px;
+}
+.cart > div > img{
+    border-radius: 10px;
+    width: 100%;
+
+}
+.cart{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+p{padding: 10px;}
+
+.cart > div{
+  border-radius: 10px  ;
+width: 230px;
+height: 270px;
+background: rgba(0, 0, 0, 0.103);
+}
+section{
+    padding: 40px 30px;
+}
+.section{
+    width: 1250px;
+    height: 530px;
+}
+.BUTTON3{
+
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+height: 40px;
+padding: 10px;
+}
+.BUTTON4{
+   padding: 10px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+height: 40px;
+}
+i{
+    padding-right: 10px;
+    display: flex;
+}
+.nol{
+    display: flex;
+    gap: 10px;
+}
+input{
+    width: 450px;
+    padding: 10px;
+}
+header{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+@media only screen and (max-width: 950px) {
+    body{
+
+    }
+    .BUTTON1{
+        position: relative;
+        left: 60%;
+    }
+.search{
+    position: relative;
+    top: 50px;
+    left: -300px;
+    min-width: 100%;
+max-width: 1000px;
+}
+button{
+    background: rgba(245, 222, 179, 0.137);
+    border: none;
+}
+.nol{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 500px;
+   margin: auto;
+    position: fixed;
+    bottom: 0;
+
+}
+.cart > div > img{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 560px) {
+  
+  .cart{
+display: flex;
+justify-content: center;
+  }
+}
+@media only screen and (max-width: 799px) {
+  body {
+
+  }
+  .cart{
+    display: flex;
+justify-content: center;
+
+  }
+}
